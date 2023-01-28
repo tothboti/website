@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szám</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <ol>
+        <li class="nav" ><a href="website.html">Home</a></li>
+        <li class="nav" style="float:right"><a class="active" href="about.html">About</a></li>
+        <li class="nav" ><a href="orarend.html">Órarend</a></li>
+        <li class="nav" ><a href="index5.html">Számológép</a></li>
+        <li class="nav" ><a href="recpet.html">Recept</a></li>
+    </ol>
+    <br>
+    <br>
+    <form action="javascript:void(0)">
+        <fieldset>
+            <legend>Számológép</legend>
+            <br>
+            <input type="number" name="sz" id="a" placeholder="szám1" requiredg>
+            <input type="number" name="sz" id="b" placeholder="szám2" required>
+            <input type="text" name="sz" id="c" placeholder="eredmény" readonly>
+            <br><br>
+            <input type="submit" value="+" onclick="ad()">
+            <input type="submit" value="-" onclick="ki()">
+            <input type="submit" value="*" onclick="szor()">
+            <input type="submit" value="/" onclick="oszt()">
+            <input type="reset" value="törlés">
+        </fieldset>
+    </form>
+
+    <script>
+        function ad() {
+            c.value = Number(a.value) + Number(b.value)
+        }
+
+        function ki() {
+            c.value = Number(a.value) - Number(b.value)
+        }
+
+        function szor() {
+            c.value = Number(a.value) * Number(b.value)
+        }
+
+        function oszt() {
+            c.value = Number(a.value) / Number(b.value)
+        }
+    </script> 
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+    <footer class="footer" >
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Favorite youtuber</h4>
+                    <ul>
+                        <li> <a href="https://www.youtube.com/@MrBeast">MrBeast</a> </li>
+                        <li> <a href="https://www.youtube.com/@dream">Dream</a> </li>
+                        <li> <a href="https://www.youtube.com/@h3h3productions">h3h3Productions</a> </li>
+                        <li> <a href="https://www.youtube.com/@dudeperfect">Dude Perfect</a> </li>
+                    </ul>
+                </div> 
+                <div class="footer-col">
+                    <h4>My schools</h4>
+                    <ul>
+                        <li> <a href="https://www.kkszki.hu/">Kandó</a> </li>
+                        <li> <a href="https://aranyiskolaesami.hu/">Arany János</a> </li>
+                    </ul>
+                </div> 
+                <div class="footer-col">
+                    <h4>Favorite players</h4>
+                    <ul>
+                        <li> <a href="https://en.wikipedia.org/wiki/Luka_Don%C4%8Di%C4%87">Luka Dončić</a> </li>
+                        <li> <a href="https://en.wikipedia.org/wiki/Stephen_Curry">Stephen Curry</a> </li>
+                        <li> <a href="https://en.wikipedia.org/wiki/LaMelo_Ball">LaMelo Ball</a> </li>
+                        <li> <a href="https://en.wikipedia.org/wiki/Giannis_Antetokounmpo">Giannis Antetokounmpo</a> </li>
+                    </ul>
+                </div> 
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <ul>
+                        <li> <a href="https://www.facebook.com/botiplay"> <i class="fab fa-facebook-f"></i> </a> </li>
+                        <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+                        <li> <a href="https://www.instagram.com/_tothbotii_/"> <i class="fab fa-instagram"></i> </a> </li>
+                    </ul>
+                </div>    
+            </div>
+        </div> 
+      </footer> 
+</body>
+</html>
